@@ -32,8 +32,6 @@ td.date {
   width: 85px;
 }
 
-
-
 thead {
   text-align: center;
 }
@@ -43,6 +41,9 @@ td {
   vertical-align: top;
 }
 
+td.skills {
+  vertical-align: top;
+}
 
 p.description {
   width: 100%;
