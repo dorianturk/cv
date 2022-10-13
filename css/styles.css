@@ -1,6 +1,13 @@
+html {
+  height: 100%;
+  background-color: white;
+}
+
 body {
-  /* color palet: https://colorhunt.co/palette/06283d256d8547b5ffdff6ff */
   background-color: #DFF6FF;
+  margin-left: 15%;
+  margin-right: 15%;
+  min-width: 700px;
 }
 
 hr {
@@ -12,7 +19,7 @@ hr {
 }
 
 img {
-  height: 200px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -47,5 +54,13 @@ td.skills {
 
 p.description {
   width: 100%;
+  text-align: justify;
+}
+
+td.git {
+  text-align: center;
+}
+
+div.publications {
   text-align: justify;
 }
