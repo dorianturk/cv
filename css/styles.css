@@ -8,11 +8,11 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 30%;
+  width: 10%;
 }
 
 img {
-  height: 300px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -22,4 +22,29 @@ h1 {
 
 h3 {
   color: #256D85;
+}
+
+td.description {
+  vertical-align: middle;
+}
+
+td.date {
+  width: 85px;
+}
+
+
+
+thead {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+  vertical-align: top;
+}
+
+
+p.description {
+  width: 100%;
+  text-align: justify;
 }
